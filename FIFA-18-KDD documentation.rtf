@@ -1,0 +1,18 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1) Remove rows which does not have revision as \'93normal\'94.\
+2) Remove useless columns such as player_id, name, etc.\
+3) Make position N/As zero.\
+4) Make gk N/As zero.\
+5) Impute skill points N/As using KNN (Using variables - To analyze).\
+6) Create individual columns for all trait values (from traits column).\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 7) Create individual columns for all speciality values (from specialties column).\
+8) Choose a target variable (choices we have now - Position, price, traits - multi out, specialties - multi out).\
+9) Using RandomForest MeanAccuracyDecrease and MeanGini values, eliminate more variables.\
+10) Perform One Hot Encoding for all categorical variables.}
